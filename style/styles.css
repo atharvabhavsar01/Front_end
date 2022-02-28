@@ -40,6 +40,7 @@
 }
 .left-navber img{
     width: 50px;
+    filter: invert(1);
     height: 50px;
 }
 .left-navber ul li{
@@ -168,6 +169,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .card{
     padding: 20px;
@@ -176,6 +178,7 @@
     height: 22rem;
     border-radius: 20%;
     margin: 0rem 2rem;
+    
 }
 .card-title{
     display: flex;
@@ -214,4 +217,118 @@
     text-decoration: none;
     list-style: circle;
     color: rgb(0, 0, 0);
+}
+
+/* footer */
+.footer{
+    height: 80vh;
+    background-color:rgb(23, 81, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.headingfooter h3{
+    color:white;
+    font-weight: bold;
+    font-size: 4rem;
+
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+.footer ul li{
+    list-style: none;
+    opacity:0.5;
+    margin-right: 2rem;
+    font-size:1.3rem;
+    color:white;
+    background-color:rgb(211, 209, 209);
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.subscribeform{
+    display:flex;
+    flex-direction: row;
+    padding:7px 15px;
+    
+}
+
+.subscribeform input{
+    height:50px;
+    width:400px;
+    padding:15px;
+    margin:20px 10px;
+    border-radius: 50px;
+}
+
+.submit{
+ margin:30px;
+ size:100px;
+     
+}
+
+.btn-secondary{
+    padding:10px;
+    background-color:white;
+    text-decoration: none;
+    color:rgb(21, 25, 226);
+    font-weight: bold;
+    border-radius: 15px;
+
+}
+
+.social-sites{
+    filter:brightness(1);
+}
+
+/* footer close */
+
+/* login */
+
+.loginthroughgoogle{
+    /* padding: 80px; */
+   margin: 80px;
+}
+.google{
+    align-items: center;
+}
+
+.registerr{
+    width:25%;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:10px;
+    opacity: 0.5;
+    border-radius:1px solid !important;
+    
+}
+
+.upperbuttons input{
+    margin:10px;
+    padding:5px;
+
+}
+.lowerbuttons input{
+    margin:10px;
+    padding:5px; 
+}
+
+.btn-outline-secondary:hover{
+    background-color:rgb(255, 51, 0);
+
 }
